@@ -6,7 +6,7 @@ Zacznij od [organizacji i zasad zajęć](00_organizacja_i_zasady_zajec.md). Nie 
 
 ## Lekcje
 
-Każda lekcja ma osobny folder, własny notatnik `karta_pracy.ipynb` i potrzebne dane obok niego. Łącznie jest 120 zadań: po 8 na lekcji i 2 do samodzielnego wykonania. Pytania do powtórzenia w kartach nie są zestawami kartkówek.
+Każda lekcja ma osobny folder, własny notatnik `karta_pracy.ipynb` i potrzebne dane obok niego. Liczba zadań zależy od karty. Karta 05 służy samodzielnemu sprawdzeniu wiadomości: zawiera trzy podpunkty zadania maturalnego 3.1–3.3 i puste komórki na kod, bez dodatkowych ćwiczeń ani pracy domowej. W pozostałych kartach zadania do samodzielnego wykonania są wskazane w osobnej sekcji. Pytania do powtórzenia w kartach nie są zestawami kartkówek.
 
 | Nr | Karta pracy | Zakres |
 |---:|---|---|
