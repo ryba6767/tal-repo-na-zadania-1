@@ -1,12 +1,9 @@
-# Lekcja 12. Matura 2025: Dron i kompletne rozwiązanie
+# Karta pracy 12. Matura 2025: Dron
 
-Otwórz karta_pracy.ipynb w Jupyter w tym katalogu. Nie korzystaj z kodu ani zmiennych uruchomionych w innej karcie.
+Karta zawiera zadanie maturalne, podpunkty 3.1–3.2, oraz puste komórki na własny kod. Łącznie można uzyskać 6 punktów. Zadanie 3.2 obejmuje części a) i b).
 
-Pliki wejściowe:
+Otwórz `karta_pracy.ipynb` w Jupyter w tym katalogu. Samodzielnie rozwiąż zadania, w tym wczytanie danych i zapis odpowiedzi. Wszystkie pliki wejściowe znajdują się obok notatnika; ich format opisano w poleceniach.
 
-- dron_przyklad.txt
-- dron.txt
+Do oceny oddaj uzupełniony notatnik i plik `wyniki3.txt` z odpowiedziami dla pełnych danych, poprzedzonymi numerami zadań. Zapisuj wyniki obok notatnika. Nie zmieniaj plików wejściowych.
 
-Sam napisz otwarcie, odczyt i konwersję danych. Wyniki zapisuj obok notatnika pod nazwami z poleceń. Nie zmieniaj plików wejściowych.
-
-Przed oddaniem zrestartuj jądro i uruchom własny kod od początku.
+Przed oddaniem uruchom własny kod od początku i zapisz notatnik.

@@ -1,12 +1,12 @@
 # Python — programowanie do matury rozszerzonej
 
-Kurs obejmuje 12 kart pracy dla uczniów znających podstawy Pythona. Początkowe lekcje są powtórzeniem, a kolejne rozwijają umiejętności potrzebne w zadaniach maturalnych. Prowadzący: por. Jakub GRĄTKIEWICZ · jakub.gratkiewicz@wat.edu.pl.
+Kurs obejmuje 12 podstawowych kart pracy oraz dodatkowy wariant 05a dla uczniów znających podstawy Pythona. Początkowe lekcje są powtórzeniem, a kolejne rozwijają umiejętności potrzebne w zadaniach maturalnych. Prowadzący: por. Jakub GRĄTKIEWICZ · jakub.gratkiewicz@wat.edu.pl.
 
 Zacznij od [organizacji i zasad zajęć](00_organizacja_i_zasady_zajec.md). Nie ma sprawdzianów: oceniane są zadania, odpowiedzi dotyczące zadań, kartkówki i aktywność. Każda kartkówka poprzedza część dydaktyczną i trwa 10 minut. Karty nie zawierają szacunków czasu wykonania ćwiczeń.
 
 ## Lekcje
 
-Każda lekcja ma osobny folder, własny notatnik `karta_pracy.ipynb` i potrzebne dane obok niego. Liczba zadań zależy od karty. Karta 05 służy samodzielnemu sprawdzeniu wiadomości: zawiera trzy podpunkty zadania maturalnego 3.1–3.3 i puste komórki na kod, bez dodatkowych ćwiczeń ani pracy domowej. W pozostałych kartach zadania do samodzielnego wykonania są wskazane w osobnej sekcji. Pytania do powtórzenia w kartach nie są zestawami kartkówek.
+Każda lekcja ma osobny folder, własny notatnik `karta_pracy.ipynb` i potrzebne dane obok niego. Liczba zadań zależy od karty. Karty 05, 08, 10 i 12 zawierają zadania maturalne oraz puste komórki na kod pod każdym podpunktem. Służą samodzielnemu sprawdzeniu wiadomości, bez dodatkowych ćwiczeń, podpowiedzi i pracy domowej. Poprzedzające je karty przygotowują do rozwiązania tych zadań. Karta 05a jest analogicznym wariantem „Parzysty skrót” z nowymi danymi. W pozostałych kartach zadania do samodzielnego wykonania są wskazane w osobnej sekcji. Pytania do powtórzenia w kartach nie są zestawami kartkówek.
 
 | Nr | Karta pracy | Zakres |
 |---:|---|---|
@@ -15,6 +15,7 @@ Każda lekcja ma osobny folder, własny notatnik `karta_pracy.ipynb` i potrzebne
 | 3 | [Powtórzenie: samodzielna praca z plikami](03_pliki_tekstowe_i_wyniki/karta_pracy.ipynb) | Otwieranie, odczyt, konwersja, kontrola i zapis |
 | 4 | [Cyfry, systemy liczbowe i NWD](04_cyfry_skroty_i_nwd/karta_pracy.ipynb) | Horner, skrót, Euklides i własny odczyt danych |
 | 5 | [Matura 2024 — Nieparzysty skrót](05_matura_2024_zadanie_3_nieparzysty_skrot/karta_pracy.ipynb) | Zadanie 3.1–3.3 od pliku do odpowiedzi |
+| 5a | [Parzysty skrót — dodatkowy wariant](05a_parzysty_skrot/karta_pracy.ipynb) | Brak skrótu oznaczony przez 0, pliki bez cyfry 0, NWD podzielny przez 3 |
 | 6 | [Sortowanie, liczności i czynniki](06_sortowanie_zliczanie_i_czynniki/karta_pracy.ipynb) | Duplikaty, dzielniki i zapas czynników |
 | 7 | [Sumy prefiksowe i fragmenty](07_sumy_prefiksowe_i_fragmenty/karta_pracy.ipynb) | Granice, złożoność, średnie i remisy |
 | 8 | [Matura 2024 — Liczby](08_matura_2024_zadanie_4_liczby/karta_pracy.ipynb) | Zadanie 4.1–4.4, dane przykładowe i pełne |
@@ -68,3 +69,5 @@ python scripts/verify-course.py
 ```
 
 Testy sprawdzają osobne katalogi i jądra, algorytmy, pliki wynikowe oraz brak kluczy w publicznych plikach. Pracują w katalogach tymczasowych, nie zmieniając prac uczniów.
+
+Karty maturalne 08, 10 i 12 generator upraszcza modułem `scripts/content/matura_cards.py`: zachowuje treść CKE i dodaje pustą komórkę na kod po każdym podpunkcie. Dane wejściowe i przykłady z arkusza pozostają częścią zadania.

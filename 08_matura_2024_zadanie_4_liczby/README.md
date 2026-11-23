@@ -1,12 +1,9 @@
-# Lekcja 8. Matura 2024: Liczby — cztery podpunkty
+# Karta pracy 08. Matura 2024: Liczby
 
-Otwórz karta_pracy.ipynb w Jupyter w tym katalogu. Nie korzystaj z kodu ani zmiennych uruchomionych w innej karcie.
+Karta zawiera zadanie maturalne, podpunkty 4.1–4.4, oraz puste komórki na własny kod. Łącznie można uzyskać 10 punktów.
 
-Pliki wejściowe:
+Otwórz `karta_pracy.ipynb` w Jupyter w tym katalogu. Samodzielnie rozwiąż zadania, w tym wczytanie danych i zapis odpowiedzi. Wszystkie pliki wejściowe znajdują się obok notatnika; ich format opisano w poleceniach.
 
-- liczby_przyklad.txt
-- liczby.txt
+Do oceny oddaj uzupełniony notatnik i plik `wyniki4.txt` z odpowiedziami dla pełnych danych, poprzedzonymi numerami zadań. Zapisuj wyniki obok notatnika. Nie zmieniaj plików wejściowych.
 
-Sam napisz otwarcie, odczyt i konwersję danych. Wyniki zapisuj obok notatnika pod nazwami z poleceń. Nie zmieniaj plików wejściowych.
-
-Przed oddaniem zrestartuj jądro i uruchom własny kod od początku.
+Przed oddaniem uruchom własny kod od początku i zapisz notatnik.

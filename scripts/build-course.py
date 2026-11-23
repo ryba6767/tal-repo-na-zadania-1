@@ -13,6 +13,7 @@ from content.foundations import LESSONS as FOUNDATIONS
 from content.numbers import LESSONS as NUMBERS
 from content.symbols_geometry import LESSONS as SYMBOLS
 from content.files import SOURCE_FILES, EXERCISE_FILES
+from content.matura_cards import simplify_matura_card
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT.parent / "prezentacja-python"
@@ -139,7 +140,7 @@ Przed oddaniem zrestartuj jądro, uruchom własne komórki od początku i zapisz
                   task["solution"] + "\n\n# Sprawdzenie\n" + task["tests"] +
                   f'\nprint("Testy zadania {index}: OK")', "solution")
 
-    return {
+    notebook = {
         "nbformat": 4, "nbformat_minor": 5, "cells": cells,
         "metadata": {
             "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
@@ -149,6 +150,7 @@ Przed oddaniem zrestartuj jądro, uruchom własne komórki od początku i zapisz
                        "class_tasks": 8, "homework_tasks": 2, "inputs": names}
         }
     }
+    return notebook if teacher else simplify_matura_card(notebook)
 
 
 def slide_sections(notebook):
